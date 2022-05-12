@@ -1,0 +1,361 @@
+                                        /* GLOBAL STYLE ---*/
+ * {
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+#hidescroll::-webkit-scrollbar {
+    display:none;
+}
+
+body {
+    background-color: black;
+} 
+
+.row:after{
+    content: '';
+    display: table;
+    clear: both;   
+}
+
+.column-half {
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.column-half-projects{
+    float: left;
+    width: 50%;
+    padding-top: 15%;
+}
+
+.column-half-left {
+    float: left;
+    width: 50%;
+}
+
+div , h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p ,h2,h3,h4,h5, label {
+    font-family: 'Quattrocento', serif;
+}  
+
+@media screen and (max-width: 1000px) {
+    .about-us-column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+
+                                        /* HOME HEADER STYLE */
+
+.headerimage {
+    display:block;
+    margin: 10% auto;
+    padding-left: 5px;
+}
+
+
+
+                                        /* HOME - NAV STYLE */
+
+.headerul {
+    text-align: center;
+}
+
+.mainlist {
+    display: inline-block;
+    width: 270px;
+}
+
+.pill-nav {
+    height: 0px;
+    background-color: black;
+    position:sticky;
+    top: 40%;
+    margin: auto;
+}
+ .pill-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 38px;
+    font-weight: 700;
+    border-radius: 5px / 4px; 
+} 
+
+.pill-nav a:hover {
+    background-color: #2a6a7c;
+    color: #ffffff;
+} 
+
+.pill-nav a.active {
+    background-color: #DB3035;
+    color: white; 
+} 
+
+                                        /* OUR STORY PAGE */
+
+.about-section h1 {
+    padding: 20px;
+}
+
+.about-section {
+    padding: 7% 0 2% 0;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.about-us-column {
+    float: left;
+    width: 24.8%;
+    padding: 80px 60px;
+}
+
+.card {
+    box-shadow: 0 4px 20px 0 #DB3035;
+  }
+
+.about-us-container {
+    text-align: center;
+    padding: 3.5%;
+    background-color: white;
+}
+
+.about-us-container h2 , p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card:hover .image-hover-link {
+    opacity: 0.6;
+}
+
+.image-hover-link {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.contact-devin {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #24829c;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+  }
+  
+  .contact-devin:hover {
+    background-color: #BDBFC1;
+    color: #DB3035;
+  }
+
+                                            /* PRJOECTS PAGE */
+
+.youtube-video {
+    display: block;
+    
+}
+
+
+                                            /* LEFT COLUMN - CONTACT US PAGE  */
+
+.spacingleft {
+    padding-left:15%;
+}
+
+ .leftcolumn {
+    color: white;
+    margin-bottom: 100px;
+ }
+
+ .small-vertical-logo img {
+    width: 390px;
+    left: 20px;
+ }
+
+
+ .social-icon {
+    padding-top: 120px;
+    color: white;
+    font-size: 90px;
+    margin-right: 6%;
+}
+
+.social-icon-B {
+    padding-top: 120px;
+    color: white;
+    font-size: 90px;
+    margin: 3% 2px; 
+}
+
+.social-icon-C {
+    padding-top: 120px;
+    color: white;
+    font-size: 85px;
+    margin-left: 18px; 
+}
+
+.social-icon:hover , .social-icon-B:hover {
+    color: #DB3035;
+}
+
+.social-icon-C:hover {
+    color: #1DB954;
+}
+
+.left-column-break {
+    padding-right: 1%;
+}
+
+.LCH {
+    padding: 6% 0px 0px 12%;
+}
+
+.LCP {
+
+    padding: 6% 0px 0px 4%;
+}
+
+.googlemap {
+    margin: 7% 0 0 20%;
+}
+
+.pagelinkstyle {
+    font-family:'Montserrat', sans-serif ;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    display: inline;
+    margin-right:70px;
+    margin-left:70px;
+}
+
+.pagelinkstyle:hover {
+    color: #2a6a7c;
+}
+
+.emailinfo {
+    display: block;
+    font-family:'Montserrat', sans-serif ;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-right: 1000px;
+}
+
+.emailinfo:hover {
+    color: #DB3035;
+}
+
+
+
+
+                                         /* RIGHT COLUMN - CONTACT FORM - CONTACT US PAGE */
+
+
+form {
+    margin-top: 55px;
+    margin-right: 50%;
+    border: 3px dashed white;
+    padding: 60px 60px 110px 60px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    border-radius: 3px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    resize: vertical;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgb(230, 230, 230);
+}
+
+input[type=submit] {
+    background-color: #DB3035;
+    color: white;
+    padding: 16px 45.7%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+input[type=submit]:hover {
+    background-color: #1a4450;
+    color: #DB3035;
+}
+
+.contactheader {
+    color: white;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+} 
+
+
+
+                                         /* FOOTER CSS */
+
+                                         
+
+.footerinfo {
+    text-align: center;
+    margin-top:10.72%;
+    position:static;
+}
+
+.footerinfohome {
+    text-align: center;
+    margin-top:10.72%;
+    position:static;
+    
+}
+
+.footercopyright {
+    margin-bottom: 5px;
+}
+
+.footercopyright , .footersocial , .emailinfo2 {
+    font-weight: 200;
+}
+
+.emailinfo2 {
+    display: block;
+    font-family:'Montserrat', sans-serif ;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.emailinfo2:hover {
+    color: #2796b4;
+}
